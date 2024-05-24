@@ -1,0 +1,105 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+font-size: 0.9em;
+}
+
+a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+a :hover {
+    text-decoration: underline;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+ul > a, ul > img {
+    padding: 0 8px;
+}
+
+.header-img:hover {
+box-shadow: 0 0 05px gainsboro;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.header-img {
+    width: 22px;
+    height: 22px;
+    border-radius: 20px; 
+    border-radius: 20px;
+    cursor: pointer;
+    }
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh;
+}
+
+@font-face {
+font-family: open sans, arial;
+font-style: normal;
+font-weight: 400;
+}
+
+h1 {
+    font-family: open sans , Arial;
+    font-size: 5.5em;
+}
+
+.my-input-container {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+height: 38px;
+border: 1px solid gainsboro;
+}
+
+.my-input-container :hover {
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+
+.my-input-container > input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+    .mic {
+        width: 20px;
+        height: 35px;
+       
+       
+    }
+.search {
+    width: 35px;
+    
+   
+}
